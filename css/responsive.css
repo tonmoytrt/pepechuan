@@ -1,0 +1,489 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 1700px) and (max-width: 2000px) {
+    /* .hero-area {
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+        height: 558px;
+        padding: 43px 0 1245px 0;
+      } */
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-logo {
+        display: block !important;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-item {
+        display: none !important;
+    }
+    .mobile-icon-ss {
+        margin-top: -5px;
+        margin-right: 1px !important;
+        display: block !important;
+        margin-left: 0px;
+    }
+    .menu-bar-wraper {
+        display: flex;
+        align-items: center;
+    }
+    .hero-area {
+        padding: 43px 0 67px 0;
+    }
+    .hero-title h2 {
+        font-size: 66px;
+        transform: rotate(0deg);
+        line-height: 70px;
+        margin-bottom: 20px;
+        margin-top: 101px;
+    }
+    .hero-title p br {
+        display: none;
+    }
+    .hero-title h3 {
+        font-size: 23px;
+        margin-bottom: 24px;
+    }
+    .hero-title ul li a {
+        margin-bottom: 24px;
+    }
+
+    .hero-right
+    {
+    margin-top: -9px;
+    text-align: center;
+    }
+ 
+    .about-area {
+        padding: 43px 0;
+    }
+    .about-left img
+    {
+    max-width: 100%;
+    }
+    .about-left img
+    {
+    margin-top: 9px;
+    margin-left: 0px;
+    }
+
+
+
+
+    .about-right {
+        margin-top: 29px;
+        text-align: center;
+    }
+    .about-right h2 {
+        font-size: 50px;
+    }
+    .about-right p
+    {
+      font-size: 21px;
+    }
+
+    .tokenomics-area {
+        padding: 50px 0 26px;
+    
+    }
+    .tokenomic-title h2{
+        font-size: 50px;
+    }
+
+    .token-left-item{
+        padding: 0px;
+        border: none;
+    }
+    .token-right-item{
+        padding: 0px;
+        border: none;
+    }
+    .token-right-content {
+        display: block;
+    }
+    .about-btn- h3
+    {
+
+      font-size: 20px;
+    }
+
+
+    .token-left {
+        margin-bottom: 40px;
+    }
+
+    .partners-title h2 {
+        font-size: 49px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    .token-right {
+        border: 1px solid rgba(255, 255, 255, 0.00);
+        background: rgba(255, 255, 255, 0.03);
+        padding: 35px 10px;
+        display: block;
+    }
+    .token-right-ll {
+        text-align: center;
+    }
+    .token-right-rr {
+        margin-left: 0px;
+    }
+
+    .token-right h2 {
+
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .roadmap-item {
+ 
+        padding: 30px;
+    }
+
+
+
+
+
+    .roadmap-title h2 {
+        font-size: 48px;
+    }
+    .roadmap-title p {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .our-roadmap-area {
+        padding: 60px 0 30px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        min-height: inherit;
+        /* position: relative; */
+    }
+
+    .hero-img {
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 97px;
+    }
+
+    .roadmap-item{
+        margin-bottom: 30px;
+    }
+    .footer-icon h2
+    {
+      color: #000;
+      font-family: Bungee;
+      font-size: 24px;
+    }
+
+
+    
+
+
+
+/* =========== */
+.hero-title ul{
+    flex-wrap: wrap;
+}
+.hero-title ul li {
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .hero-title ul li a {
+	color: #000;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px  0px;
+
+
+	transition: .3s;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	width: 100%;
+	display: block;
+}
+
+.hero-title ul li:first-of-type a{
+    width: 100%;
+}
+
+
+.footer-right img{
+
+    position: inherit;
+    bottom: -20px;
+    max-width: 100%;
+
+}
+.f-order-1{
+    order: 2;
+}
+
+.token-right ul li
+{
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.token-right h3 {
+    text-align: center;
+}
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+
+@media screen and (max-width: 767px) {
+    .menu-logo {
+        display: block !important;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-item {
+        display: none !important;
+    }
+    .mobile-icon-ss {
+        margin-top: -5px;
+        margin-right: 1px !important;
+        display: block !important;
+        margin-left: 0px;
+    }
+    .menu-bar-wraper {
+        display: flex;
+        align-items: center;
+    }
+    .hero-area {
+        padding: 43px 0 67px 0;
+    }
+    .hero-title h2 {
+        font-size: 66px;
+        transform: rotate(0deg);
+        line-height: 70px;
+        margin-bottom: 20px;
+        margin-top: 101px;
+    }
+    .hero-title p br {
+        display: none;
+    }
+    .hero-title h3 {
+        font-size: 23px;
+        margin-bottom: 24px;
+    }
+    .hero-title ul li a {
+        margin-bottom: 24px;
+    }
+
+    .hero-right
+    {
+    margin-top: -9px;
+    text-align: center;
+    }
+ 
+    .about-area {
+        padding: 43px 0;
+    }
+    .about-left img
+    {
+    max-width: 100%;
+    }
+    .about-left img
+    {
+    margin-top: 9px;
+    margin-left: 0px;
+    }
+
+
+
+
+    .about-right {
+        margin-top: 29px;
+        text-align: center;
+    }
+    .about-right h2 {
+        font-size: 50px;
+    }
+    .about-right p
+    {
+      font-size: 21px;
+    }
+
+    .tokenomics-area {
+        padding: 50px 0 26px;
+    
+    }
+    .tokenomic-title h2{
+        font-size: 50px;
+    }
+
+    .token-left-item{
+        padding: 0px;
+        border: none;
+    }
+    .token-right-item{
+        padding: 0px;
+        border: none;
+    }
+    .token-right-content {
+        display: block;
+    }
+    .about-btn- h3
+    {
+
+      font-size: 20px;
+    }
+
+
+    .token-left {
+        margin-bottom: 40px;
+    }
+
+    .partners-title h2 {
+        font-size: 49px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    .token-right {
+        border: 1px solid rgba(255, 255, 255, 0.00);
+        background: rgba(255, 255, 255, 0.03);
+        padding: 35px 10px;
+        display: block;
+    }
+    .token-right-ll {
+        text-align: center;
+    }
+    .token-right-rr {
+        margin-left: 0px;
+    }
+
+    .token-right h2 {
+
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .roadmap-item {
+ 
+        padding: 30px;
+    }
+
+
+
+
+
+    .roadmap-title h2 {
+        font-size: 48px;
+    }
+    .roadmap-title p {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .our-roadmap-area {
+        padding: 60px 0 30px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        min-height: inherit;
+        /* position: relative; */
+    }
+
+    .hero-img {
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 97px;
+    }
+
+    .roadmap-item{
+        margin-bottom: 30px;
+    }
+    .footer-icon h2
+    {
+      color: #000;
+      font-family: Bungee;
+      font-size: 24px;
+    }
+
+
+    
+
+
+
+/* =========== */
+.hero-title ul{
+    flex-wrap: wrap;
+}
+.hero-title ul li {
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .hero-title ul li a {
+	color: #000;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px  0px;
+
+
+	transition: .3s;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	width: 100%;
+	display: block;
+}
+
+.hero-title ul li:first-of-type a{
+    width: 100%;
+}
+
+
+.footer-right img{
+
+    position: inherit;
+    bottom: -20px;
+    max-width: 100%;
+
+}
+.f-order-1{
+    order: 2;
+}
+
+
+
+
+
+
+}
